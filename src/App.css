@@ -1,4 +1,55 @@
 body {
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+header {
+  height: 20vh;
+}
+
+main {
+  height: 80vh;
+  text-align: center;
+}
+
+nav {
+  height: 20vh;
+  background-color: rgb(57, 57, 100);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(225, 166, 64);
+}
+
+.pet-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  height: 80vh;
+}
+
+.pet-card {
+  border: 2px solid rgb(225, 166, 64);
+  background-color: rgb(57, 57, 100);
+  color: white;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
